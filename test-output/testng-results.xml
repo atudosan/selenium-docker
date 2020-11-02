@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-27T15:52:27Z" name="ValidateItemsFromShoppimgCartSuite" finished-at="2020-10-27T15:55:57Z" duration-ms="210577">
+    <groups>
+    </groups>
+    <test started-at="2020-10-27T15:52:27Z" name="ValidateItemsFromShoppimgCartTest" finished-at="2020-10-27T15:55:57Z" duration-ms="210577">
+      <class name="com.automationpractice.signuptests.ValidateItemsFromShoppingCartTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:com.automationpractice.signuptests.ValidateItemsFromShoppingCartTest@12299890]" started-at="2020-10-27T15:52:27Z" name="setUp" finished-at="2020-10-27T15:52:48Z" duration-ms="20146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@20331c8e]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void com.automationpractice.signuptests.ValidateItemsFromShoppingCartTest.validateItemsFromShoppingCartTest(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateItemsFromShoppingCartTest(java.util.Map)[pri:0, instance:com.automationpractice.signuptests.ValidateItemsFromShoppingCartTest@12299890]" started-at="2020-10-27T15:52:48Z" name="validateItemsFromShoppingCartTest" data-provider="csvReader" finished-at="2020-10-27T15:53:16Z" duration-ms="27974" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{no=1, password=pomsmith, quantity=2, color=blue, size=medium, itemIndex=0, email=pomsmith@mail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateItemsFromShoppingCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationpractice.signuptests.ValidateItemsFromShoppingCartTest@12299890]" started-at="2020-10-27T15:53:16Z" name="tearDown" finished-at="2020-10-27T15:53:17Z" duration-ms="1064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:com.automationpractice.signuptests.ValidateItemsFromShoppingCartTest@12299890]" started-at="2020-10-27T15:53:17Z" name="setUp" finished-at="2020-10-27T15:53:22Z" duration-ms="5655" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@20331c8e]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void com.automationpractice.signuptests.ValidateItemsFromShoppingCartTest.validateItemsFromShoppingCartTest(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateItemsFromShoppingCartTest(java.util.Map)[pri:0, instance:com.automationpractice.signuptests.ValidateItemsFromShoppingCartTest@12299890]" started-at="2020-10-27T15:53:22Z" name="validateItemsFromShoppingCartTest" data-provider="csvReader" finished-at="2020-10-27T15:53:41Z" duration-ms="18877" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{no=2, password=pomsmith, quantity=1, color=white, size=large, itemIndex=1, email=pomsmith@mail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateItemsFromShoppingCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationpractice.signuptests.ValidateItemsFromShoppingCartTest@12299890]" started-at="2020-10-27T15:53:41Z" name="tearDown" finished-at="2020-10-27T15:53:42Z" duration-ms="875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:com.automationpractice.signuptests.ValidateItemsFromShoppingCartTest@12299890]" started-at="2020-10-27T15:53:42Z" name="setUp" finished-at="2020-10-27T15:53:48Z" duration-ms="6020" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@20331c8e]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void com.automationpractice.signuptests.ValidateItemsFromShoppingCartTest.validateItemsFromShoppingCartTest(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateItemsFromShoppingCartTest(java.util.Map)[pri:0, instance:com.automationpractice.signuptests.ValidateItemsFromShoppingCartTest@12299890]" started-at="2020-10-27T15:53:48Z" name="validateItemsFromShoppingCartTest" data-provider="csvReader" finished-at="2020-10-27T15:54:10Z" duration-ms="22282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{no=3, password=pomsmith, quantity=3, color=red, size=small, itemIndex=2, email=pomsmith@mail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateItemsFromShoppingCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationpractice.signuptests.ValidateItemsFromShoppingCartTest@12299890]" started-at="2020-10-27T15:54:10Z" name="tearDown" finished-at="2020-10-27T15:54:11Z" duration-ms="912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:com.automationpractice.signuptests.ValidateItemsFromShoppingCartTest@12299890]" started-at="2020-10-27T15:54:11Z" name="setUp" finished-at="2020-10-27T15:54:17Z" duration-ms="6082" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@20331c8e]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void com.automationpractice.signuptests.ValidateItemsFromShoppingCartTest.validateItemsFromShoppingCartTest(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateItemsFromShoppingCartTest(java.util.Map)[pri:0, instance:com.automationpractice.signuptests.ValidateItemsFromShoppingCartTest@12299890]" started-at="2020-10-27T15:54:17Z" name="validateItemsFromShoppingCartTest" data-provider="csvReader" finished-at="2020-10-27T15:54:37Z" duration-ms="19418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{no=4, password=pomsmith, quantity=2, color=pink, size=medium, itemIndex=3, email=pomsmith@mail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateItemsFromShoppingCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationpractice.signuptests.ValidateItemsFromShoppingCartTest@12299890]" started-at="2020-10-27T15:54:37Z" name="tearDown" finished-at="2020-10-27T15:54:39Z" duration-ms="1892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:com.automationpractice.signuptests.ValidateItemsFromShoppingCartTest@12299890]" started-at="2020-10-27T15:54:39Z" name="setUp" finished-at="2020-10-27T15:54:50Z" duration-ms="11213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@20331c8e]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void com.automationpractice.signuptests.ValidateItemsFromShoppingCartTest.validateItemsFromShoppingCartTest(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateItemsFromShoppingCartTest(java.util.Map)[pri:0, instance:com.automationpractice.signuptests.ValidateItemsFromShoppingCartTest@12299890]" started-at="2020-10-27T15:54:50Z" name="validateItemsFromShoppingCartTest" data-provider="csvReader" finished-at="2020-10-27T15:55:11Z" duration-ms="20739" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{no=5, password=pomsmith, quantity=1, color=orange, size=large, itemIndex=4, email=pomsmith@mail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateItemsFromShoppingCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationpractice.signuptests.ValidateItemsFromShoppingCartTest@12299890]" started-at="2020-10-27T15:55:11Z" name="tearDown" finished-at="2020-10-27T15:55:11Z" duration-ms="831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:com.automationpractice.signuptests.ValidateItemsFromShoppingCartTest@12299890]" started-at="2020-10-27T15:55:11Z" name="setUp" finished-at="2020-10-27T15:55:17Z" duration-ms="5726" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@20331c8e]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void com.automationpractice.signuptests.ValidateItemsFromShoppingCartTest.validateItemsFromShoppingCartTest(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateItemsFromShoppingCartTest(java.util.Map)[pri:0, instance:com.automationpractice.signuptests.ValidateItemsFromShoppingCartTest@12299890]" started-at="2020-10-27T15:55:17Z" name="validateItemsFromShoppingCartTest" data-provider="csvReader" finished-at="2020-10-27T15:55:40Z" duration-ms="23003" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{no=6, password=pomsmith, quantity=2, color=white, size=small, itemIndex=5, email=pomsmith@mail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateItemsFromShoppingCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationpractice.signuptests.ValidateItemsFromShoppingCartTest@12299890]" started-at="2020-10-27T15:55:40Z" name="tearDown" finished-at="2020-10-27T15:55:41Z" duration-ms="807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:com.automationpractice.signuptests.ValidateItemsFromShoppingCartTest@12299890]" started-at="2020-10-27T15:55:41Z" name="setUp" finished-at="2020-10-27T15:55:47Z" duration-ms="6233" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@20331c8e]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void com.automationpractice.signuptests.ValidateItemsFromShoppingCartTest.validateItemsFromShoppingCartTest(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateItemsFromShoppingCartTest(java.util.Map)[pri:0, instance:com.automationpractice.signuptests.ValidateItemsFromShoppingCartTest@12299890]" started-at="2020-10-27T15:55:47Z" name="validateItemsFromShoppingCartTest" data-provider="csvReader" finished-at="2020-10-27T15:55:56Z" duration-ms="9045" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{no=7, password=pomsmith, quantity=3, color=green, size=medium, itemIndex=6, email=pomsmith@mail.com}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a class="home" href="http://automationpractice.com/" title="Return to Home">...</a> is not clickable at point (110, 344). Other element would receive the click: <ul class="submenu-container clearfix first-in-line-xs" style="display: block;">...</ul>
+  (Session info: chrome=86.0.4240.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-FAP6QC75', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\19163\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55321}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ce9c0edbf8e6699057c708a2471282f1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="home" href="http://automationpractice.com/" title="Return to Home">...</a> is not clickable at point (110, 344). Other element would receive the click: <ul class="submenu-container clearfix first-in-line-xs" style="display: block;">...</ul>
+  (Session info: chrome=86.0.4240.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-FAP6QC75', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\19163\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55321}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ce9c0edbf8e6699057c708a2471282f1
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at com.automationpractice.pages.BasePageObject.click(BasePageObject.java:58)
+at com.automationpractice.pages.MyAccountMainPage.navigateToHomePage(MyAccountMainPage.java:55)
+at com.automationpractice.signuptests.ValidateItemsFromShoppingCartTest.validateItemsFromShoppingCartTest(ValidateItemsFromShoppingCartTest.java:34)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateItemsFromShoppingCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationpractice.signuptests.ValidateItemsFromShoppingCartTest@12299890]" started-at="2020-10-27T15:55:56Z" name="tearDown" finished-at="2020-10-27T15:55:57Z" duration-ms="786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automationpractice.signuptests.ValidateItemsFromShoppingCartTest -->
+    </test> <!-- ValidateItemsFromShoppimgCartTest -->
+  </suite> <!-- ValidateItemsFromShoppimgCartSuite -->
+</testng-results>

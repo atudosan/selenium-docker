@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">ValidateItemsFromShoppimgCartSuite</th></tr>
+<tr><td><a href="#t0">ValidateItemsFromShoppimgCartTest</a></td><td class="num">6</td><td class="num">0</td><td class="num attn">1</td><td class="num">210,577</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">ValidateItemsFromShoppimgCartSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">ValidateItemsFromShoppimgCartTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.automationpractice.signuptests.ValidateItemsFromShoppingCartTest</td><td><a href="#m0">validateItemsFromShoppingCartTest</a></td><td rowspan="1">1603814147761</td><td rowspan="1">9045</td></tr><tr><th colspan="4">ValidateItemsFromShoppimgCartTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">com.automationpractice.signuptests.ValidateItemsFromShoppingCartTest</td><td><a href="#m1">validateItemsFromShoppingCartTest</a></td><td rowspan="6">1603814117713</td><td rowspan="6">23003</td></tr><tr class="passedeven"><td><a href="#m2">validateItemsFromShoppingCartTest</a></td></tr><tr class="passedeven"><td><a href="#m3">validateItemsFromShoppingCartTest</a></td></tr><tr class="passedeven"><td><a href="#m4">validateItemsFromShoppingCartTest</a></td></tr><tr class="passedeven"><td><a href="#m5">validateItemsFromShoppingCartTest</a></td></tr><tr class="passedeven"><td><a href="#m6">validateItemsFromShoppingCartTest</a></td></tr></tbody>
+</table>
+<h2>ValidateItemsFromShoppimgCartTest</h2><h3 id="m0">com.automationpractice.signuptests.ValidateItemsFromShoppingCartTest#validateItemsFromShoppingCartTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{no=7, password=pomsmith, quantity=3, color=green, size=medium, itemIndex=6, email=pomsmith@mail.com}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a class=&quot;home&quot; href=&quot;http://automationpractice.com/&quot; title=&quot;Return to Home&quot;&gt;...&lt;/a&gt; is not clickable at point (110, 344). Other element would receive the click: &lt;ul class=&quot;submenu-container clearfix first-in-line-xs&quot; style=&quot;display: block;&quot;&gt;...&lt;/ul&gt;
+  (Session info: chrome=86.0.4240.75)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-FAP6QC75&apos;, ip: &apos;192.168.99.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\19163\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55321}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ce9c0edbf8e6699057c708a2471282f1
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.automationpractice.pages.BasePageObject.click(BasePageObject.java:58)
+	at com.automationpractice.pages.MyAccountMainPage.navigateToHomePage(MyAccountMainPage.java:55)
+	at com.automationpractice.signuptests.ValidateItemsFromShoppingCartTest.validateItemsFromShoppingCartTest(ValidateItemsFromShoppingCartTest.java:34)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.automationpractice.signuptests.ValidateItemsFromShoppingCartTest#validateItemsFromShoppingCartTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{no=6, password=pomsmith, quantity=2, color=white, size=small, itemIndex=5, email=pomsmith@mail.com}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.automationpractice.signuptests.ValidateItemsFromShoppingCartTest#validateItemsFromShoppingCartTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{no=2, password=pomsmith, quantity=1, color=white, size=large, itemIndex=1, email=pomsmith@mail.com}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.automationpractice.signuptests.ValidateItemsFromShoppingCartTest#validateItemsFromShoppingCartTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{no=5, password=pomsmith, quantity=1, color=orange, size=large, itemIndex=4, email=pomsmith@mail.com}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.automationpractice.signuptests.ValidateItemsFromShoppingCartTest#validateItemsFromShoppingCartTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{no=4, password=pomsmith, quantity=2, color=pink, size=medium, itemIndex=3, email=pomsmith@mail.com}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.automationpractice.signuptests.ValidateItemsFromShoppingCartTest#validateItemsFromShoppingCartTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{no=3, password=pomsmith, quantity=3, color=red, size=small, itemIndex=2, email=pomsmith@mail.com}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.automationpractice.signuptests.ValidateItemsFromShoppingCartTest#validateItemsFromShoppingCartTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{no=1, password=pomsmith, quantity=2, color=blue, size=medium, itemIndex=0, email=pomsmith@mail.com}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
