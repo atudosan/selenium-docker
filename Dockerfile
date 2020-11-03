@@ -19,7 +19,7 @@ ADD SignUpTestSuite.xml SignUpTestSuite.xml
 ADD NegativeLogInTests.xml NegativeLogInTests.xml
 ADD ValidateItemsFromShopingCartTests.xml ValidateItemsFromShopingCartTests.xml 
 
-#Add api call to check the hub
-ADD CheckingHub.sh CheckingHub.sh
+# ADD health check script
+RUN wget https://s3.amazonaws.com/selenium-docker/healthcheck/healthcheck.sh
 
-ENTRYPOINT sh CheckingHub.sh
+ENTRYPOINT sh healthcheck.sh
